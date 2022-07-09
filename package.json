@@ -1,0 +1,21 @@
+{
+  "name": "dca-on-steroids-bot",
+  "version": "1.0.0",
+  "description": "DCA alerts bot that considers drawdown from last ATH to calculate order sizes",
+  "main": "index.js",
+  "author": "David Höglinger",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "date-fns": "^2.28.0",
+    "dotenv": "^16.0.1",
+    "mongodb": "^4.6.0",
+    "sqlite3": "^5.0.8",
+    "telegraf": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  },
+  "packageManager": "yarn@3.2.1"
+}
